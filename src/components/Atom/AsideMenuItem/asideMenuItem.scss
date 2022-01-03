@@ -7,7 +7,11 @@
     padding-left: 1.2rem;
     list-style-type: none;
     color: #1e2631;
+    &:hover{
+    cursor: pointer;    
+    }
  }
+ 
 
 .aside-menu-item__selected{
     padding-left: 1.1rem;
