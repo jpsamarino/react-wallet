@@ -1943,7 +1943,7 @@
     prop-types "^15.7.2"
     react-is "^17.0.2"
 
-"@mui/lab@^5.0.0-alpha.63":
+"@mui/lab@last":
   version "5.0.0-alpha.63"
   resolved "https://registry.yarnpkg.com/@mui/lab/-/lab-5.0.0-alpha.63.tgz#9024ed77e6a598ddfbc94d3831df115886900e1a"
   integrity sha512-BFexWjiiXZ2aWfSq+4j1cua7XmCt7BIDC27MgFWoKY6O0Fe3zeUz/6WH0M5+4VKT+yn3DC3vzWGAWKmNDa3TUQ==
@@ -5909,6 +5909,11 @@ data-urls@^2.0.0:
     abab "^2.0.3"
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
+
+date-fns@latest:
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
+  integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"

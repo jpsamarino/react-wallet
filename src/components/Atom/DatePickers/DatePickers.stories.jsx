@@ -12,7 +12,7 @@ const Template = (args) => <DatePickers {...args} />
 export const Primary = Template.bind({})
 Primary.args = {
   labelName:"Data Inicial",
-  dateValue:"2019-03-25", 
+  dateValue:"2017-03-25", 
   handleDateValue:()=>{}
 }
 
