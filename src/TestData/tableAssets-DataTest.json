@@ -6,6 +6,12 @@
           "result":0,
           "amount":0
      },
+     "totalEarnings":{
+          "totalJCP":10000,
+          "totalDividends":12233,
+          "porcentJCP":6.6,
+          "PorcentDividends":5.14
+     },
      "assets":{
           "directTreasure":{
                     "totalEquity":{

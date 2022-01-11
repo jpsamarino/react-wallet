@@ -26,17 +26,17 @@ const DatePickers = ({labelName, dateValue, handleDateValue}) => {
     <div
           style={{
             display: "flex",
-            backgroundColor: "#001b",
+            backgroundColor: "#0a3c5d",
             alignItems: "center",
             borderRadius: "4px 0px 0px 4px",
-            height: "40px",
-            margin:"20px"
+            height: "34px",
+            margin:"10px 20px 10px 20px"
           }}
         >
           <div
             style={{
               margin: "0px 15px 0px 15px",
-              fontSize: "15px",
+              fontSize: "0.9rem",
               color: "white"
             }}
           >
@@ -60,15 +60,20 @@ const DatePickers = ({labelName, dateValue, handleDateValue}) => {
                   }}
                   sx={{
                     fontFamily: "exo",
-                    fontSize: "15px",
                     height: "100%",
                     width:"9.5rem",
                     "& .MuiOutlinedInput-root": {
                       height: "100%",
                       fontFamily: "Exo",
+                      fontSize:"0.9rem",
+                      color:"#0a3c5d",
+                      fontWeight:600,
                       padding: "0px 0px 0px 0rem",
                       borderRadius: "0px 4px 4px 0px",
                       backgroundColor:"white",
+                      "& .MuiOutlinedInput-input":{
+                        padding:"16.5px 14px 15px"
+                      },
                       "& input": {
                         width:"100%",
                         "&::-webkit-calendar-picker-indicator": {
@@ -107,19 +112,6 @@ const DatePickers = ({labelName, dateValue, handleDateValue}) => {
           </LocalizationProvider> */}
          
         </div>
-  //   <TextField
-  //     inputRef={refDate} 
-  //     onBlur={handleBlurValue}
-  //     id= {"date" + labelName}
-  //     label={labelName}
-  //     type="date"
-  //     defaultValue={dateValue}
-  //     className={classes.textField}
-  //     InputLabelProps={{
-  //       shrink: true,
-  //     }
-  //   }
-  // />
   )
 }
 

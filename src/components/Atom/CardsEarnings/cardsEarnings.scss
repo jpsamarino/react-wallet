@@ -1,0 +1,67 @@
+.cards-earning{
+  width: 100%;
+  margin-top: 1.8rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-earning__item{
+  margin-right: 0rem;
+  margin-left: 0rem;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-earning__result{
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cards-earning__total{
+  margin-right: 3.5rem;
+  margin-left: 3.5rem;
+}
+
+.cards-earning__cost{
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cards-earning__value{
+    display: inline;
+    color: #0a3c5d;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cards-earning__percent{
+    color: #087233;
+    display: inline;
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cards-earning__legend{
+  color: #0a3c5d;
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.cards-earning__value--main{
+  color: #087233;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.cards-earning__legend--main{
+  color: #087233;
+}
